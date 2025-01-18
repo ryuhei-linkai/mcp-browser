@@ -1,5 +1,5 @@
 {
-  "name": "@modelcontextprotocol/browser-nlp-server",
+  "name": "@ryuhei-linkai/browser-nlp-server",
   "version": "0.1.0",
   "description": "Browser Use操作を自然言語で実行するためのMCPサーバー",
   "type": "module",
@@ -18,16 +18,16 @@
     "nlp",
     "browser-automation"
   ],
-  "author": "",
+  "author": "ryuhei-linkai",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/browser-nlp-server.git"
+    "url": "git+https://github.com/ryuhei-linkai/mcp-browser.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/browser-nlp-server/issues"
+    "url": "https://github.com/ryuhei-linkai/mcp-browser/issues"
   },
-  "homepage": "https://github.com/yourusername/browser-nlp-server#readme",
+  "homepage": "https://github.com/ryuhei-linkai/mcp-browser#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.3.1"
   },
