@@ -1,0 +1,37 @@
+{
+  "name": "@modelcontextprotocol/browser-nlp-server",
+  "version": "0.1.0",
+  "description": "Browser Use操作を自然言語で実行するためのMCPサーバー",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "browser-nlp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "watch": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "browser-use",
+    "nlp",
+    "browser-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/browser-nlp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/browser-nlp-server/issues"
+  },
+  "homepage": "https://github.com/yourusername/browser-nlp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
